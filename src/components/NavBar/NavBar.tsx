@@ -25,6 +25,7 @@ const NavBar = (props: NavBarProps): JSX.Element => {
         <ul>
           <li><NavLink to="/login">Log In</NavLink></li>
           <li><NavLink to="/signup">Sign Up</NavLink></li>
+          <li><NavLink to="/free-headloss">Free Headloss Calculator</NavLink></li>
         </ul>
       }
     </nav>
