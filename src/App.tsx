@@ -8,6 +8,7 @@ import Login from './pages/Login/Login'
 import Landing from './pages/Landing/Landing'
 import Profiles from './pages/Profiles/Profiles'
 import ChangePassword from './pages/ChangePassword/ChangePassword'
+import SystemCurve from './pages/SystemCurve/SystemCurve'
 
 // components
 import NavBar from './components/NavBar/NavBar'
@@ -50,6 +51,7 @@ function App(): JSX.Element {
           path="/login"
           element={<Login handleAuthEvt={handleAuthEvt} />}
         />
+        <Route path="/free-headloss" element={<SystemCurve />} />
         <Route
           path="/profiles"
           element={

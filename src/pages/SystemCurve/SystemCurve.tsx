@@ -3,7 +3,7 @@
 const SystemCurve = (): JSX.Element => {
   return (
     < >
-    
+      
     </>
   )
 }
